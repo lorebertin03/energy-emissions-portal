@@ -50,8 +50,7 @@ def build_dataset():
     )
 
     df_co2 = pd.read_csv(
-        "https://raw.githubusercontent.com/owid/co2-data/"
-        "refs/heads/master/owid-co2-data.csv",
+        "https://catalog.ourworldindata.org/emissions/owid_co2/owid_co2.csv",
         usecols=co2_columns,
     )
  
